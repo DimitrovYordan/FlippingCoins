@@ -7,9 +7,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            // 1. прочитам масив от числа
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            // 2. разделям и броя общия брой до първото което стигне до 3
+            
             int countBeers = 0;
             int countParty = 0;
             int countWorkOnProject = 0;
@@ -59,8 +58,9 @@ namespace ConsoleApp1
                     action = "May the DSA Force be with you!";
                     break;
                 }
+                
             }
-            // 3. принтирам общия брой и действието
+            
             Console.WriteLine($"{countAll}: {action}");
         }
     }
