@@ -1,0 +1,2 @@
+# FlippingCoins
+My first repository
